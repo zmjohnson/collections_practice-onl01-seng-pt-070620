@@ -15,8 +15,3 @@ def swap_elements_from_to(array, index, new_index)
   return array
 end
 
-describe 'swap_elements_from_to' do
-  it 'swaps elements and allows you to specify the index of the element you would like to move to a new index' do
-    expect(swap_elements_from_to(["one", "two", "three"], 2, 1)).to eq(["one", "three", "two"])
-  end
-end
