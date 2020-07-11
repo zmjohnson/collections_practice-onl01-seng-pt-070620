@@ -6,3 +6,6 @@ def swap_elements(array)
   end
   array
 end
+
+test_array = [1,2,3,4]
+string_test = ["blake", "ashley", "scott"]
